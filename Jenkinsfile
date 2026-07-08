@@ -40,7 +40,7 @@ pipeline {
 
     post {
         success {
-            echo 'Despliegue completado exitosamente. WordPress disponible en http://localhost:8080'
+            echo 'Despliegue completado exitosamente. WordPress disponible en http://localhost:8081'
         }
         failure {
             echo 'El pipeline fallo. Revisar los logs para mas detalles.'
